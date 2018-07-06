@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingTop="1dp"
+    android:layout_marginBottom="1dp"
+    android:background="@android:color/holo_green_light"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pop"
+        android:textSize="14dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alt"
+        android:textSize="14dp"/>
+
+    <!--
+        Dies stellt das gesamte Design einer gesamten Zeile
+        der Liste in der RecyclerView dar.
+
+        Jede Zeile hat ein eigenes LinearLayout, welches mit
+        einer TextView ausgefüllt wurde.
+    -->
+
+</LinearLayout>
