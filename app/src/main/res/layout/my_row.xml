@@ -12,26 +12,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/name"
-        android:textSize="18dp"/>
+        android:textSize="18sp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/pop"
-        android:textSize="14dp"/>
+        android:textSize="14sp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/alt"
-        android:textSize="14dp"/>
+        android:textSize="14sp"/>
 
     <!--
         Dies stellt das gesamte Design einer gesamten Zeile
         der Liste in der RecyclerView dar.
 
         Jede Zeile hat ein eigenes LinearLayout, welches mit
-        einer TextView ausgefüllt wurde.
+        einer TextView versehen wurde.
     -->
 
 </LinearLayout>
